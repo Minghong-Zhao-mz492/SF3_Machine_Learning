@@ -26,20 +26,34 @@ This target is useful because it removes the near-identity part of the short-tim
 
 ## Repository Structure
 
-A typical structure of this repository is:
+The repository is organised into two main folders:
 
 ```text
 SF3_Machine_Learning/
-├── notebooks/          # Jupyter notebooks for project tasks and experiments
-├── code/               # Python scripts and reusable functions
-├── data/               # Saved datasets and train/validation/test splits
-├── figures/            # Generated figures used in reports
-├── results/            # Experimental outputs
-├── reports/            # LaTeX and PDF report files
-└── README.md
+├── README.md
+├── SF3 Machine Learning/
+│   ├── SF3 handout.pdf
+│   ├── cartpole.py
+│   ├── data/
+│   ├── figures/
+│   ├── __pycache__/
+│   ├── sf3_w1_task1_1_rollouts.ipynb
+│   ├── sf3_w1_task1_2_state_change_scans.ipynb
+│   ├── sf3_w1_task1_3_linear_model.ipynb
+│   ├── sf3_w1_task1_4_linear_rollout.ipynb
+│   ├── sf3_w2_task2_1_kernel_model.ipynb
+│   ├── sf3_w2_task2_2_jax_hyperparams.ipynb
+│   └── sf3_w2_task2_3_sincos_features.ipynb
+│
+└── SF3_pretraining/
+    ├── notebooks/
+    ├── figures/
+    └── experiment_log.md
 ```
 
-Some folder names may differ slightly between working versions, but the general aim is to keep code, data, figures, results, and reports separated.
+The folder `SF3 Machine Learning/` contains the main project work. It includes the project handout, the supplied `cartpole.py` simulator, generated data, report figures, and the main notebooks for Week 1 and Week 2 tasks.
+
+The folder `SF3_pretraining/` contains preparatory toy experiments used before starting the main project tasks. These experiments cover basic regression, train/validation/test splitting, regularisation, Gaussian basis functions, PyTorch/JAX usage, and rollout-error behaviour. They are not part of the final model pipeline, but they document the learning process that supported the main project work.
 
 ## Workflow
 
