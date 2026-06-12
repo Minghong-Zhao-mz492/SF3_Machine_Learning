@@ -1,0 +1,5 @@
+{
+  "N/M selection": "Validation standardised MSE for the sin/cos sparse-kernel dynamics model as a function of training transitions N and kernel centres M. Error bars show variation over random centre seeds. The selected setting was N=200, M=80, chosen by a one-standard-error rule to avoid using a larger basis after validation error had plateaued.",
+  "Component MSE": "Component-wise one-step test error for \u0394x, \u0394x_dot, \u0394\u03b8 and \u0394\u03b8_dot. Errors are standardised by the training-set standard deviation of each target component, so the large-magnitude acceleration components do not dominate the comparison.",
+  "Rollout": "Recursive rollout from initial condition [x, x_dot, \u03b8, \u03b8_dot]=[0,0,\u03c0,8] under zero force. The sin/cos kernel predicts \u0394X and feeds its own prediction back as the next input. Using a periodic state-error threshold of 2.0, agreement lasted until step 6, approximately 0.6 time units and 0.03 raw-theta cycles."
+}

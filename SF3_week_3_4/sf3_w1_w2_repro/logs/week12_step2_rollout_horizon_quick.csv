@@ -1,0 +1,9 @@
+initial condition,model,threshold,first step error > threshold,time units,approx theta cycles,exceeded threshold,final error
+small downward oscillation,raw linear,2.0,1,0.1,0.029253386603838166,True,22.098406194005484
+small downward oscillation,sin/cos kernel,2.0,14,1.4000000000000001,0.0005841386550788613,True,5.848475927214151
+large downward oscillation,raw linear,2.0,1,0.1,0.11313441225637753,True,153.8579128042433
+large downward oscillation,sin/cos kernel,2.0,6,0.6000000000000001,0.026303655292499197,True,24.54083589295597
+full rotation,raw linear,2.0,1,0.1,0.20196488410482563,True,586.6127238262502
+full rotation,sin/cos kernel,2.0,1,0.1,0.20196488410482563,True,12.780733877883385
+near upright fall,raw linear,2.0,3,0.30000000000000004,0.08413012865652325,True,219.96742710437786
+near upright fall,sin/cos kernel,2.0,7,0.7000000000000001,0.660357696641563,True,33.08585664370354

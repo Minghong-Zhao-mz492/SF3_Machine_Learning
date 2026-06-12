@@ -1,0 +1,10 @@
+{
+  "feature_kind": "sincos_features",
+  "N_train": 200,
+  "M": 80,
+  "val_std_mse_mean": 0.13038371351633918,
+  "val_std_mse_std": 0.017032521640516822,
+  "test_std_mse_mean": 0.1414830554428304,
+  "elapsed_seconds_mean": 0.002449417021125555,
+  "num_repeats": 2
+}

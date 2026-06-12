@@ -1,0 +1,10 @@
+{
+  "feature_kind": "raw_periodic_kernel",
+  "N_train": 200,
+  "M": 80,
+  "val_std_mse_mean": 0.1874943878179684,
+  "val_std_mse_std": 0.0018788262632576797,
+  "test_std_mse_mean": 0.22554527938299457,
+  "elapsed_seconds_mean": 0.0029238536953926086,
+  "num_repeats": 2
+}
