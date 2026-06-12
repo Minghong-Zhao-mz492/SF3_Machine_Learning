@@ -1,0 +1,8 @@
+Week 4 extension summary
+========================
+
+1. Noisy observations: training the action-conditioned dynamics model on noisy observations degraded clean-test one-step MSE. This separates data-quality effects from true process noise because the simulator itself remained deterministic.
+2. Closed-loop noise robustness: observation/action/process noise were tested separately. This distinguishes sensor noise, actuator noise and unmodelled dynamics noise.
+3. Nonlinear controller: a nonlinear feature policy was compared with the linear feedback policy. The useful claim is not simply that nonlinear is always better, but whether it improves the harder initial condition or robustness without excessive action saturation.
+4. Lightweight MPC probe: if included, describe it as a small receding-horizon experiment. It should be used as a diagnostic of model-based control limits, not as the main success claim.
+5. VAE/GAN were considered but not used as main experiments because the CartPole state is already low-dimensional and fully observed; the report can cite variational-inference/generative-modelling literature only as future work, not as evidence for this experiment.

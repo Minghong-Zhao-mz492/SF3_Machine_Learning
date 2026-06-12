@@ -1,0 +1,21 @@
+{
+  "run_mode": "full",
+  "seed": 492,
+  "n_train": 1600,
+  "n_val": 450,
+  "n_test": 450,
+  "m_centres": 160,
+  "action_limit": 20.0,
+  "noise_levels": [
+    0.0,
+    0.005,
+    0.01,
+    0.03,
+    0.06,
+    0.1
+  ],
+  "h_near": 90,
+  "h_hard": 160,
+  "mc_seeds": 30,
+  "run_lightweight_mpc": true
+}

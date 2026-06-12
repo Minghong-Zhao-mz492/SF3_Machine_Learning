@@ -1,0 +1,20 @@
+{
+  "run_mode": "full",
+  "seed": 492,
+  "n_train": 1800,
+  "n_val": 500,
+  "n_test": 500,
+  "m_centres": 160,
+  "action_limit_candidates": [
+    2.0,
+    5.0,
+    10.0,
+    20.0,
+    40.0
+  ],
+  "selected_action_limit": 20.0,
+  "grid_n": 45,
+  "rollout_horizon": 100,
+  "kernel_lengthscale": 5.0,
+  "kernel_lambda": 0.0001
+}
