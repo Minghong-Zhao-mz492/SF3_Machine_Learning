@@ -1,0 +1,2 @@
+case,model_optimisation_horizon,true_eval_horizon,model_objective_loss,true_eval_mean_loss,final_abs_wrapped_theta,max_abs_action,p_x,p_x_dot,p_theta,p_theta_dot
+downward_model_optimised_policy_true_eval,30,100,0.27745107368533056,0.974551480105275,1.7367463900210005,19.999975108408034,-10.86620175824672,-8.558015793342115,22.53217139826626,2.106382257156655

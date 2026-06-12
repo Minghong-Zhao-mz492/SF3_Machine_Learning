@@ -1,0 +1,2 @@
+case,method,trajectory_loss,direct_policy_search_loss,p_x,p_x_dot,p_theta,p_theta_dot,Phi_shape,condition_number_PhiTPhi,target_action_rmse,max_abs_pred_action,mean_abs_target_action
+downward,one_step_greedy_then_linear_solve,0.8819645226322979,0.11969467283509291,-0.5540442482105241,-2.8351389952524424,-4.638041742829351,-0.6792010028659627,"(350, 4)",10.874667377103643,7.762989696908238,23.84234047899986,14.157142857142857

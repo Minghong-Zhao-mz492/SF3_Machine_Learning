@@ -1,0 +1,8 @@
+Task 3.3 report notes
+======================
+
+The action-conditioned sparse-kernel model was trained on command actions u in [-20.0, 20.0], corresponding to effective forces of approximately ±15.23 N.
+I therefore bounded the commanded action during model-based policy search, so that the optimiser could not exploit out-of-distribution actions.
+The selected model-based horizon was 40 steps (4.0 s), chosen by comparing model loss with true-dynamics evaluation across horizon candidates.
+The comparison table task33_model_vs_true_policy_eval.csv shows whether the policy optimised on the learned model transfers back to the true dynamics.
+The downward-start case is treated as a stress test because swing-up requires a longer horizon than the learned model can be trusted for.
